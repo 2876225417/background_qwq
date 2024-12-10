@@ -16,6 +16,8 @@ namespace database {
                                   , const std::string& values
                                   , Args&&... args) {
                                         try {
+                                                
+                                            
                                                 std::string query = "INSERT INTO " + table + " (" + columns + ") VALUES (" + values + ")";
                                                 std::unique_ptr<sql::PreparedStatement> pstmt(_connection->prepareStatement(query));
 
