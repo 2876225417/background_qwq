@@ -10,3 +10,6 @@
 .cache/clangd/index/mysql_connector.h.C34D6F28121F1D79.idx
 .cache/clangd/index/mysql_inserter.cpp.E4219AD8E5D4A0B5.idx
 .cache/clangd/index/mysql_inserter.h.89A0D45E1F3C5B5C.idx
+
+/build
+
