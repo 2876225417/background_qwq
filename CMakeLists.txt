@@ -32,9 +32,6 @@ add_executable(background_qwq ${SOURCE_FILES})
 target_link_libraries(background_qwq PRIVATE Boost::asio Boost::system Boost::beast mysqlcppconn pthread http mysql_utils utils)
 
 
-
-
-
 install(TARGETS background_qwq DESTINATION bin)
 install(DIRECTORY ${PROJECT_SOURCE_DIR}/utils DESTINATION include
         FILES_MATCHING PATTERN "*.h" PATTERN "*.hpp")
